@@ -1,0 +1,8 @@
+.Contents {
+  width: 1230px;
+  height: 1685px;
+  background-color: blanchedalmond;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding: 30px 50px;
+}

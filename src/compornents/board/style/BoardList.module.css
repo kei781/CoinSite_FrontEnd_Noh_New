@@ -1,0 +1,29 @@
+.Board {
+  width: 100%;
+  border: 2px solid red;
+}
+.head {
+  display: flex;
+  justify-content: center;
+}
+
+.Index {
+  width: 5%;
+  border: 2px solid rgba(211, 211, 211, 0.432);
+}
+.Subject {
+  border: 2px solid rgba(211, 211, 211, 0.432);
+  width: 75%;
+}
+.Auther {
+  border: 2px solid rgba(211, 211, 211, 0.432);
+  width: 10%;
+}
+.Date {
+  border: 2px solid rgba(211, 211, 211, 0.432);
+  width: 5%;
+}
+.Views {
+  border: 2px solid rgba(211, 211, 211, 0.432);
+  width: 5%;
+}

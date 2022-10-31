@@ -1,0 +1,58 @@
+.SideBar {
+  width: 230px;
+  height: 1830px;
+  background-color: rgb(189, 189, 189);
+  grid-column: 1/1;
+  grid-row: 1/3;
+}
+.InnerSideBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Logo {
+  width: 100%;
+  height: 120px;
+  background-size: cover;
+  background-image: url(https://ifh.cc/g/yoMxsd.png);
+  display: block;
+}
+
+.menuWrap {
+  margin-top: 30px;
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu {
+  width: 100%;
+  padding-left: 10%;
+}
+.menuSubject {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.menuContents {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-right: 50px;
+}
+.menuContents:hover {
+  background-color: rgba(95, 166, 247, 0.356);
+}
+.ContentsImg {
+  width: 13px;
+  height: 13px;
+  background-color: red;
+  margin-right: 10px;
+}
+.ContentsText {
+  font-size: 13px;
+  font-weight: bold;
+}

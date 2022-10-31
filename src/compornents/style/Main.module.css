@@ -1,0 +1,47 @@
+.WrapMain {
+  height: 1685px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+}
+.Chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+}
+.ChartGraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+}
+.ImgBoard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+}
+.SubBoards {
+  height: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.SubBoard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 95%;
+}

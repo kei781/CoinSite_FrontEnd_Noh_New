@@ -1,0 +1,28 @@
+.Header {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  width: 1230px; /* 1330px */
+  height: 65px; /*  85px */
+  background-color: azure;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 10px 50px;
+}
+.WrapMenu {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.localriseMenu {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+.localriseIcon {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
